@@ -15,7 +15,7 @@ Please follow the instructions to test the results:
     + To see the failed urls and tactic IDs:
         - Run `node index.js`
     + To run the tests: 
-        - Run `jest --silent --detectOpenHandles` to test
+        - Run `jest --detectOpenHandles --forceExit` to test and exit the async operation
     + The status of responses falls into 3 types:
         - "ok" is 2xx, 3xx response
         - 4xx, 5xx response
